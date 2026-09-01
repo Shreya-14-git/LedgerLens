@@ -1,0 +1,90 @@
+[
+    {
+        "order_id": "ORD1000",
+        "order_amount": 2000.0,
+        "payment_id": null,
+        "payment_amount": 2000.0,
+        "payment_status": "Success",
+        "settlement_id": null,
+        "settlement_amount": 1000.0,
+        "difference": 1000.0,
+        "status": "Settlement Mismatch",
+        "recommendation": "Review settlement adjustment, fees or deductions.",
+        "ai_analysis": {
+            "summary": "The payment of \u20b92,000 was successful, but only \u20b91,000 was settled. This creates a \u20b91,000 variance.",
+            "likely_causes": [
+                "Processing fees",
+                "Settlement adjustment",
+                "Refund or deduction"
+            ],
+            "confidence": "HIGH",
+            "recommended_action": "Review the settlement breakdown and verify fees, deductions, refunds or other adjustments."
+        }
+    },
+    {
+        "order_id": "ORD014",
+        "order_amount": 4000.0,
+        "payment_id": null,
+        "payment_amount": 4000.0,
+        "payment_status": "Success",
+        "settlement_id": null,
+        "settlement_amount": 2000.0,
+        "difference": 2000.0,
+        "status": "Settlement Mismatch",
+        "recommendation": "Review settlement adjustment, fees or deductions.",
+        "ai_analysis": {
+            "summary": "The payment of \u20b94,000 was successful, but only \u20b92,000 was settled. This creates a \u20b92,000 variance.",
+            "likely_causes": [
+                "Processing fees",
+                "Settlement adjustment",
+                "Refund or deduction"
+            ],
+            "confidence": "HIGH",
+            "recommended_action": "Review the settlement breakdown and verify fees, deductions, refunds or other adjustments."
+        }
+    },
+    {
+        "order_id": "ORD00014",
+        "order_amount": 2000.0,
+        "payment_id": null,
+        "payment_amount": 2000.0,
+        "payment_status": "Success",
+        "settlement_id": null,
+        "settlement_amount": 200.0,
+        "difference": 1800.0,
+        "status": "Settlement Mismatch",
+        "recommendation": "Review settlement adjustment, fees or deductions.",
+        "ai_analysis": {
+            "summary": "The payment of \u20b92,000 was successful, but only \u20b9200 was settled. This creates a \u20b91,800 variance.",
+            "likely_causes": [
+                "Processing fees",
+                "Settlement adjustment",
+                "Refund or deduction"
+            ],
+            "confidence": "HIGH",
+            "recommended_action": "Review the settlement breakdown and verify fees, deductions, refunds or other adjustments."
+        }
+    },
+    {
+        "order_id": "ORD00010",
+        "order_amount": 5000.0,
+        "payment_id": null,
+        "payment_amount": 3000.0,
+        "payment_status": "Success",
+        "settlement_id": null,
+        "settlement_amount": 300.0,
+        "difference": 2700.0,
+        "status": "Settlement Mismatch",
+        "recommendation": "Review settlement adjustment, fees or deductions.",
+        "ai_analysis": {
+            "summary": "The payment of \u20b93,000 was successful, but only \u20b9300 was settled. This creates a \u20b92,700 variance.",
+            "likely_causes": [
+                "Processing fees",
+                "Settlement adjustment",
+                "Refund or deduction"
+            ],
+            "confidence": "HIGH",
+            "recommended_action": "Review the settlement breakdown and verify fees, deductions, refunds or other adjustments."
+        }
+    }
+]
