@@ -46,30 +46,6 @@ The system automatically detects financial exceptions and provides AI-powered in
 - Rule-based reconciliation logic
 - Pandas for financial data processing
 
-## Project Architecture
-
-LedgerLens
-│
-├── backend
-│   ├── main.py
-│   ├── ai_analysis.py
-│   └── data
-│       ├── reconciliation_results.csv
-│       └── new_transactions.json
-│
-├── frontend
-│   └── src
-│       ├── App.jsx
-│       └── App.css
-│
-├── screenshots
-│   ├── dashboard.png
-│   ├── investigation.png
-│   ├── add-transaction.png
-│   └── audit-trail.png
-│
-└── README.md
-
 ## How It Works
 
 Order Data
